@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity implements MainView{
     private EditText password;
 
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         presenter = new MainPresenter(this);
