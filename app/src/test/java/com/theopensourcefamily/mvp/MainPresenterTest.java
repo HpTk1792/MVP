@@ -16,11 +16,12 @@ public class MainPresenterTest {
     @Mock
     MainView view;
 
+    /*
     @After
     public void tearDown() {
         verifyNoMoreInteractions(view);
     }
-
+*/
     @Test
     public void checkCredentialsSuccess() {
         MainPresenter presenter = new MainPresenter(view);
