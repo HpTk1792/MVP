@@ -5,6 +5,8 @@
     <string name="password">Contraseña</string>
     <string name="button">ENTRAR</string>
     <string name="tv_inicio">INICIO DE LA JORNADA</string>
+    <string name="number">00</string>
+    <string name="points">:</string>
     <string name="tv_fin">FINAL DE LA JORNADA</string>
     <string name="tv_pausa">DESCANSO (OPCIONAL)</string>
     <string name="button_reg">ACEPTAR</string>
