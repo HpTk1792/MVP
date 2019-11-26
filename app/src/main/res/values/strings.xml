@@ -4,6 +4,10 @@
     <string name="username">Usuario</string>
     <string name="password">Contraseña</string>
     <string name="button">ENTRAR</string>
+    <string name="tv_inicio">INICIO DE LA JORNADA</string>
+    <string name="tv_fin">FINAL DE LA JORNADA</string>
+    <string name="tv_pausa">DESCANSO (OPCIONAL)</string>
+    <string name="button_reg">ACEPTAR</string>
     <string name="title_activity_menu_view">MenuView</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -12,10 +16,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="registros">VER REGISTROS</string>
+    <string name="gestion">GESTIÓN DE PERSONAL</string>
+    <string name="opciones">OPCIONES</string>
 </resources>
