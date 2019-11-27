@@ -1,6 +1,8 @@
 package com.theopensourcefamily.mvp;
 
-import org.junit.After;
+import com.theopensourcefamily.mvp.ui.login.MainPresenter;
+import com.theopensourcefamily.mvp.ui.login.MainView;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
@@ -8,7 +10,6 @@ import org.mockito.runners.MockitoJUnitRunner;
 
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 @RunWith(MockitoJUnitRunner.class)
 public class MainPresenterTest {
