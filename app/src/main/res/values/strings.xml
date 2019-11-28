@@ -21,4 +21,6 @@
     <string name="registros">VER REGISTROS</string>
     <string name="gestion">GESTIÓN DE PERSONAL</string>
     <string name="opciones">OPCIONES</string>
+    <string name="menu_home">MENÚ</string>
+    <string name="menu_gallery">GALLERY</string>
 </resources>
