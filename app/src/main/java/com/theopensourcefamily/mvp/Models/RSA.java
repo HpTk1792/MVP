@@ -1,4 +1,4 @@
-package com.theopensourcefamily.mvp;
+package com.theopensourcefamily.mvp.Models;
 
 import android.content.Context;
 import android.util.Log;
