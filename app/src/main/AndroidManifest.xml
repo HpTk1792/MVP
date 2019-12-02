@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MenuView"
+            android:name=".ui.home.MenuView"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 

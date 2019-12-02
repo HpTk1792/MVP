@@ -1,4 +1,4 @@
-package com.theopensourcefamily.mvp;
+package com.theopensourcefamily.mvp.ui.home;
 
 import android.os.Bundle;
 
@@ -13,6 +13,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
+import com.theopensourcefamily.mvp.R;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 

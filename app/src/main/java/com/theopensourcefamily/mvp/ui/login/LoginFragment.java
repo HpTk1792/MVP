@@ -1,6 +1,5 @@
 package com.theopensourcefamily.mvp.ui.login;
 
-import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
@@ -16,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.theopensourcefamily.mvp.MenuView;
+import com.theopensourcefamily.mvp.ui.home.MenuView;
 import com.theopensourcefamily.mvp.R;
 
 public class LoginFragment extends Fragment {
