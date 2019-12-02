@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.theopensourcefamily.mvp.MenuView;
 import com.theopensourcefamily.mvp.R;
 
 public class LoginFragment extends Fragment {
