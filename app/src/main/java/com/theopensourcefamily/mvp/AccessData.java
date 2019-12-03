@@ -1,4 +1,7 @@
-package com.theopensourcefamily.mvp.Models;
+package com.theopensourcefamily.mvp;
+
+import com.theopensourcefamily.mvp.Models.User;
+import com.theopensourcefamily.mvp.Models.Worklog;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,7 +18,24 @@ import java.util.ArrayList;
 
 public class AccessData {
 
+
     private File UsersFile = new File("Users.bin");
+    /**
+     * Singleton
+     */
+    private static AccessData accessdata;
+
+    /**
+     * Basic Builder
+     */
+    private AccessData (){}
+
+    public static AccessData get() {
+        if (accessdata == null) {
+            accessdata = new AccessData();
+        }
+        return accessdata;
+    }
 
     /**
      * Method for save users into file of users
