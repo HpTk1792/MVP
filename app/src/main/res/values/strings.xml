@@ -23,4 +23,8 @@
     <string name="opciones">OPCIONES</string>
     <string name="menu_home">MENÚ</string>
     <string name="menu_gallery">GALLERY</string>
+
+    <string name="tv_nombre">NOMBRE DE LA EMPRESA</string>
+    <string name="etxt_nombre">Escriba un nombre</string>
+    <string name="tv_logo">IMAGEN DE LA EMPRESA</string>
 </resources>
