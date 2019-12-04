@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 
-public class MenuView extends AppCompatActivity {
+public class MenuHomeBar extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -38,12 +38,6 @@ public class MenuView extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_view, menu);
-        return true;
-    }
 
     @Override
     public boolean onSupportNavigateUp() {

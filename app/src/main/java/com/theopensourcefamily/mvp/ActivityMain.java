@@ -1,12 +1,13 @@
-package com.theopensourcefamily.mvp.ui.login;
+package com.theopensourcefamily.mvp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
 import com.theopensourcefamily.mvp.R;
+import com.theopensourcefamily.mvp.Views.LoginFragment;
 
-public class LoginActivity extends AppCompatActivity {
+public class ActivityMain extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
