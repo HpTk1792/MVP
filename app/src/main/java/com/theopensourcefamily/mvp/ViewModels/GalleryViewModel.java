@@ -1,14 +1,14 @@
-package com.theopensourcefamily.mvp.ui.home;
+package com.theopensourcefamily.mvp.ViewModels;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class GalleryViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public GalleryViewModel() {
         mText = new MutableLiveData<>();
     }
 
