@@ -1,4 +1,4 @@
-package com.theopensourcefamily.mvp.ui.login;
+package com.theopensourcefamily.mvp.Views;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.content.Intent;
@@ -11,8 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import com.theopensourcefamily.mvp.MenuView;
+import com.theopensourcefamily.mvp.MenuHomeBar;
 import com.theopensourcefamily.mvp.R;
+import com.theopensourcefamily.mvp.ViewModels.LoginViewModel;
 
 public class LoginFragment extends Fragment {
 
@@ -48,7 +49,7 @@ public class LoginFragment extends Fragment {
             public void onClick(View view) {
                 if (mViewModel.onButtonPressed(userEditText.getText().toString()
                         , passEditText.getText().toString())){
-                    getActivity().startActivity(new Intent(getActivity(), MenuView.class));
+                    getActivity().startActivity(new Intent(getActivity(), MenuHomeBar.class));
                 }
                 else{
                     //You are wrong

@@ -1,4 +1,4 @@
-package com.theopensourcefamily.mvp.ui.login;
+package com.theopensourcefamily.mvp.ViewModels;
 
 import androidx.lifecycle.ViewModel;
 

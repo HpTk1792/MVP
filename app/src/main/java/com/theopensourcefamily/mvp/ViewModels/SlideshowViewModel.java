@@ -1,4 +1,4 @@
-package com.theopensourcefamily.mvp.ui.slideshow;
+package com.theopensourcefamily.mvp.ViewModels;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
